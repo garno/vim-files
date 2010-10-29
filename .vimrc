@@ -4,6 +4,7 @@
 " @author         Samuel Garneau <samgarneau@gmail.com>
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
 
 source $HOME/.vim/settings.vim
