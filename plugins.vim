@@ -9,7 +9,7 @@ let NERDTreeShowHidden = 1
 let NERDTreeQuitOnOpen = 0
 let NERDTreeShowLineNumbers=1
 let NERDChristmasTree = 0
-let NERDTreeIgnore=['\.DS_Store$', '\.swo$', '\.swp$', '\.gitignore$', '\.git$']
+let NERDTreeIgnore=['\.DS_Store$', '\.swo$', '\.swp$', '\.gitignore$', '\.git$', '\.svn$']
 let NERDTreeMapActivateNode='l'
 map .. :NERDTreeToggle .<CR>
 hi Directory ctermfg=darkblue ctermbg=NONE
