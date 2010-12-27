@@ -1,4 +1,6 @@
-" Ruby shortcuts # {{{
+let mapleader = ","
+
+" Ruby shortcuts {{{
 autocmd FileType eruby inoremap ;er <%  %><Esc>hhi
 autocmd FileType eruby inoremap ;ee <%=  %><Esc>hhi
 autocmd FileType eruby inoremap ;ep <% p  %><Esc>hhi
