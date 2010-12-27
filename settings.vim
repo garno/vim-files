@@ -4,6 +4,9 @@
 " @author         Samuel Garneau <samgarneau@gmail.com>
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+set grepprg=ack\ -a
+runtime macros/matchit.vim
+
 " Syntax {{{
 syntax on							" Syntax highlight
 " }}}
