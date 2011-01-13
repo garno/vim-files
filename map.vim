@@ -4,7 +4,11 @@ let mapleader = ","
 autocmd FileType eruby inoremap ;er <%  %><Esc>hhi
 autocmd FileType eruby inoremap ;ee <%=  %><Esc>hhi
 autocmd FileType eruby inoremap ;ep <% p  %><Esc>hhi
+
 " }}}
+
+nnoremap ª "_dd<Esc>
+vnoremap ª "_d<Esc>
 
 " Unbind arrows {{{
 nnoremap <Up> <Esc>
