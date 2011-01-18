@@ -7,8 +7,10 @@ autocmd FileType eruby inoremap ;ep <% p  %><Esc>hhi
 
 " }}}
 
+" Delete w/o copy {{{
 nnoremap ª "_dd<Esc>
 vnoremap ª "_d<Esc>
+" }}}
 
 " Unbind arrows {{{
 nnoremap <Up> <Esc>

@@ -25,4 +25,8 @@ let Tlist_GainFocus_On_ToggleOpen = 1															" Focus TagList on open
 let Tlist_Ctags_Cmd = '/usr/local/Cellar/ctags/5.8/bin/ctags'
 " }}}
 
+" Tabular {{{
+vnoremap <Leader>tb :Tab /
+" }}}
+
 "vim: fdm=marker:
