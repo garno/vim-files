@@ -8,7 +8,7 @@ set grepprg=ack\ -a
 runtime macros/matchit.vim
 
 " Syntax {{{
-syntax on							" Syntax highlight
+syntax on   " Syntax highlight
 " }}}
 
 " FileType plugin {{{
@@ -46,7 +46,8 @@ set fdm=marker
 set listchars=trail:⠿,nbsp:◊,tab:»»      " Add special chars
 set list
 set modeline
-set noerrorbells      " Don't beep on error... finally !
+set noerrorbells      " Don't beep on
+set vb t_vb=          " error... Thank God !
 " }}}
 
 " Highlight trailing whitespaces {{{
