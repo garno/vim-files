@@ -5,6 +5,8 @@ autocmd FileType eruby inoremap ;er <%  %><Esc>hhi
 autocmd FileType eruby inoremap ;ee <%=  %><Esc>hhi
 autocmd FileType eruby inoremap ;ep <% p  %><Esc>hhi
 
+nnoremap <Leader>m :Rmodel<CR>
+nnoremap <Leader>c :Rcontroller<CR>
 " }}}
 
 " Delete w/o copy {{{
