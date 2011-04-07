@@ -14,6 +14,7 @@ syntax on   " Syntax highlight
 " FileType plugin {{{
 filetype on
 filetype plugin on
+au! BufRead,BufNewFile Capfile setfiletype ruby
 " }}}
 
 " Colorscheme {{{
