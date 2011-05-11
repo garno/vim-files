@@ -15,6 +15,7 @@ syntax on   " Syntax highlight
 filetype on
 filetype plugin on
 au! BufRead,BufNewFile Capfile setfiletype ruby
+au! BufRead,BufNewFile CHANGELOG setfiletype markdown
 " }}}
 
 " Colorscheme {{{
@@ -49,6 +50,7 @@ set list
 set modeline
 set noerrorbells      " Don't beep on
 set vb t_vb=          " error... Thank God !
+set hidden
 " }}}
 
 " Highlight trailing whitespaces {{{
