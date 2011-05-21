@@ -9,6 +9,10 @@ nnoremap <Leader>m :Rmodel<CR>
 nnoremap <Leader>c :Rcontroller<CR>
 " }}}
 
+nnoremap <Leader>w :w<CR>
+nnoremap <Leader>q :q<CR>
+nnoremap <Leader>d :bd<CR>
+
 " Delete w/o copy {{{
 nnoremap ª "_dd<Esc>
 vnoremap ª "_d<Esc>
