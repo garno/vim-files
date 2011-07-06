@@ -1,5 +1,9 @@
 let mapleader = ","
 
+" Magic stuff {{{
+nnoremap <Leader>cl :%s/\s\+$//<CR>
+" }}}
+
 " Ruby shortcuts {{{
 autocmd FileType eruby inoremap ;er <%  %><Esc>hhi
 autocmd FileType eruby inoremap ;ee <%=  %><Esc>hhi
