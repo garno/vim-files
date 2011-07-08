@@ -1,7 +1,8 @@
 let mapleader = ","
 
 " Magic stuff {{{
-nnoremap <Leader>cl :%s/\s\+$//<CR>
+  " Remove whitespaces from Textmate
+  nnoremap <Leader>cl :%s/\s\+$//<CR>
 " }}}
 
 " Ruby shortcuts {{{
