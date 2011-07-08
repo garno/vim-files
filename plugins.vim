@@ -29,14 +29,18 @@ let Tlist_Ctags_Cmd = '/usr/local/Cellar/ctags/5.8/bin/ctags'
 vnoremap <Leader>tb :Tab /
 " }}}
 
-" FuzzyFile {{{
-map <Leader>o :FufFileWithCurrentBufferDir<CR>
-map <Leader>, :FufFile<CR>
-map <Leader>b :FufBuffer<CR>
-let g:fuf_infoFile = '~/.vim-local/.vimfuf'
-let g:fuf_file_prompt = 'open→ '
-let g:fuf_buffer_prompt = 'buffer→ '
-let g:fuf_lines_prompt = 'l'
+" FuzzyFinder {{{
+  map <Leader>o :FufFileWithCurrentBufferDir<CR>
+  map <Leader>, :FufFile<CR>
+  map <Leader>b :FufBuffer<CR>
+
+  " <A-r> refresh cache
+  nnoremap ¶ :FufRenewCache<CR>
+
+  let g:fuf_infoFile = '~/.vim-local/.vimfuf'
+  let g:fuf_file_prompt = 'open→ '
+  let g:fuf_buffer_prompt = 'buffer→ '
+  let g:fuf_lines_prompt = 'l'
 " }}}
 
 "vim: fdm=marker:
