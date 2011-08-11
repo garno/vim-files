@@ -1,7 +1,8 @@
 let mapleader = ","
 
 " Magic stuff {{{
-nnoremap <Leader>cl :%s/\s\+$//<CR>
+  " Remove whitespaces from Textmate
+  nnoremap <Leader>cl :%s/\s\+$//<CR>
 " }}}
 
 " Ruby shortcuts {{{
@@ -13,9 +14,15 @@ nnoremap <Leader>m :Rmodel<CR>
 nnoremap <Leader>c :Rcontroller<CR>
 " }}}
 
+" Find all TODOs in within a project {{{
+noremap <Leader>g :noautocmd vimgrep /TODO/j **/*.rb<CR>:cw<CR>
+" }}}
+
+" Faster save, quit & buffer delete {{{
 nnoremap <Leader>w :w<CR>
 nnoremap <Leader>q :q<CR>
 nnoremap <Leader>d :bd<CR>
+" }}}
 
 " Delete w/o copy {{{
 nnoremap ª "_dd<Esc>
