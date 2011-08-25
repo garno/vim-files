@@ -43,4 +43,8 @@ vnoremap <Leader>tb :Tab /
   let g:fuf_lines_prompt = 'l'
 " }}}
 
+  " Vim Pastie {{{
+  let pastie_private = 1
+  " }}}
+
 " vim: fdm=marker:
