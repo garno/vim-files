@@ -51,6 +51,7 @@ set modeline
 set noerrorbells      " Don't beep on
 set vb t_vb=          " error... Thank God !
 set hidden
+set nowrap
 " }}}
 
 " Highlight trailing whitespaces {{{
