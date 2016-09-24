@@ -210,5 +210,6 @@ hi link javaScriptNumber      Number
 " Special for CSharp
 hi  link csXmlTag             Keyword      
 
-
-" Special for PHP
+" Special for Elixir
+hi! link elixirDocString Comment
+hi! link elixirVariable Special " @moduledoc
