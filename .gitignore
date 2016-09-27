@@ -1,2 +1,7 @@
-.netrwhist
+# neovim
+init.vim
+
+# vim-plug
 plugged/
+
+.netrwhist
