@@ -38,7 +38,6 @@ set ts=2              " 2 spaces tab
 set sw=2              " Non insert mode tab (>> and <<)
 set noautoread        " Don't reload file if updated
 set showmatch         " Show matching parantheses
-set noautoindent      " Don't  Auto ident on new line
 set listchars=trail:⠿,nbsp:◊,tab:»»      " Add special chars
 set list
 set noerrorbells      " Don't beep on
