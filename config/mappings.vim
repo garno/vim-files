@@ -28,3 +28,11 @@ vnoremap < <gv
 vnoremap > >gv|
 vnoremap <Tab> >gv|
 vnoremap <S-Tab> <gv
+
+" Buffer navigation
+"   - ALT+h for previous buffer
+"   - ALT+j to delete current buffer
+"   - ALT+l for next buffer
+nnoremap ˙ :bp<CR>
+nnoremap   :bn<CR>
+nnoremap ∆ :bd<CR>
