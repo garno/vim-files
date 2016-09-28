@@ -27,4 +27,4 @@ call plug#end()
 source $HOME/.vim/config/settings.vim
 source $HOME/.vim/config/plugin-settings.vim
 source $HOME/.vim/config/mappings.vim
-source $HOME/.vim/config/events.vim
+source $HOME/.vim/config/custom-highlights.vim
