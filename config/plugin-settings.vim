@@ -15,9 +15,9 @@ sunmap w
 sunmap b
 sunmap e
 
-" FuzzyFinder
-map <Leader>o :FufFileWithCurrentBufferDir<CR>
-map <Leader>, :FufFile<CR>
+" FZF
+let g:fzf_layout = { 'down': '~20%' }
+map <Leader>, :FZF<CR>
 map <Leader>b :FufBuffer<CR>
 
 " FuzzyFinder - Refresh tree with Alt + r
