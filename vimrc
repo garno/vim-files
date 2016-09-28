@@ -28,3 +28,4 @@ source $HOME/.vim/config/settings.vim
 source $HOME/.vim/config/plugin-settings.vim
 source $HOME/.vim/config/mappings.vim
 source $HOME/.vim/config/custom-highlights.vim
+source $HOME/.vim/config/functions.vim

@@ -36,3 +36,6 @@ vnoremap <S-Tab> <gv
 nnoremap ˙ :bp<CR>
 nnoremap   :bn<CR>
 nnoremap ∆ :bd<CR>
+
+" Switch between Ruby file and its spec
+nmap <Leader>l :call SpecToggle()<cr>

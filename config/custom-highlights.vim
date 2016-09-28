@@ -4,4 +4,4 @@ function! RSpec()
   hi def link rubyRspec Function
 endfunction
 
-au BufNewFile,BufReadPost *_spec.rb call RSpec()
+autocmd BufNewFile,BufReadPost *_spec.rb call RSpec()
