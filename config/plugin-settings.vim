@@ -15,15 +15,7 @@ sunmap w
 sunmap b
 sunmap e
 
-" FZF
-let g:fzf_layout = { 'down': '~20%' }
-map <Leader>, :FZF<CR>
-map <Leader>b :FufBuffer<CR>
-
-" FuzzyFinder - Refresh tree with Alt + r
-nnoremap ¶ :FufRenewCache<CR>
-
-" FuzzyFinder - Prompt
-let g:fuf_file_prompt = 'open → '
-let g:fuf_buffer_prompt = 'buffer → '
-let g:fuf_lines_prompt = 'l'
+" ctrlp.vim
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+map <Leader>, :CtrlP<CR>
+map <Leader>b :CtrlPBuffer<CR>

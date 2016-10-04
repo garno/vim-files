@@ -7,7 +7,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'othree/html5.vim', { 'for': ['html', 'eruby'] }
   Plug 'jwalton512/vim-blade', { 'for': ['blade'] }
   Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx'] }
-  Plug 'mxw/vim-jsx', { 'for': ['javascript', 'javascript.jsx'] }
+  Plug 'maxmellon/vim-jsx-pretty', { 'for': ['javascript', 'javascript.jsx'] }
   Plug 'dsawardekar/ember.vim', { 'for': ['javascript'] }
   Plug 'mustache/vim-mustache-handlebars', { 'for': ['html'] }
 
@@ -19,7 +19,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'scrooloose/nerdcommenter'
   Plug 'tpope/vim-surround'
   Plug 'ervandew/supertab'
-  Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+  Plug 'kien/ctrlp.vim'
 call plug#end()
 
 " Config
