@@ -9,7 +9,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx'] }
   Plug 'maxmellon/vim-jsx-pretty', { 'for': ['javascript', 'javascript.jsx'] }
   Plug 'dsawardekar/ember.vim', { 'for': ['javascript'] }
-  Plug 'mustache/vim-mustache-handlebars', { 'for': ['html'] }
+  Plug 'mustache/vim-mustache-handlebars', { 'for': ['html', 'html.handlebars', 'handlebars.ember'] }
 
   " Plugins
   Plug 'git-mirror/vim-l9'
