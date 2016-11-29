@@ -2,6 +2,10 @@
 nnoremap <Leader>w :w<CR>
 nnoremap <Leader>q :q<CR>
 
+" Bye bye, ESC
+inoremap jj <Esc>
+inoremap <esc> <NOP>
+
 " Unbind arrows
 nnoremap <Up> <Esc>
 vnoremap <Up> <NOP>
