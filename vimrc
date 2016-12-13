@@ -20,6 +20,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'tpope/vim-surround'
   Plug 'ervandew/supertab'
   Plug 'kien/ctrlp.vim'
+  Plug 'rizzatti/dash.vim'
 call plug#end()
 
 " Config
