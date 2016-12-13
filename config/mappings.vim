@@ -4,6 +4,7 @@ nnoremap <Leader>q :q<CR>
 
 " Bye bye, ESC
 inoremap jj <Esc>
+inoremap kk <Esc>
 inoremap <esc> <NOP>
 
 " Unbind arrows
