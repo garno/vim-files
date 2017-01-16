@@ -24,6 +24,8 @@ call plug#begin('~/.vim/plugged')
   Plug 'ervandew/supertab'
   Plug 'kien/ctrlp.vim'
   Plug 'rizzatti/dash.vim'
+  Plug 'mattn/gist-vim'
+  Plug 'mattn/webapi-vim'
 call plug#end()
 
 " Config

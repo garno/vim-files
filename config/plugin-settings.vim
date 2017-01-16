@@ -23,3 +23,6 @@ map <Leader>o :CtrlP %:p:h<CR>
 
 " dash.vim
 map <Leader>d :Dash<CR>
+
+" gist-vim
+let g:gist_post_private = 1
