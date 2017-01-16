@@ -10,12 +10,15 @@ call plug#begin('~/.vim/plugged')
   Plug 'maxmellon/vim-jsx-pretty', { 'for': ['javascript', 'javascript.jsx'] }
   Plug 'dsawardekar/ember.vim', { 'for': ['javascript'] }
   Plug 'mustache/vim-mustache-handlebars', { 'for': ['html', 'html.handlebars', 'handlebars.ember'] }
+  Plug 'slim-template/vim-slim', { 'for': ['slim'] }
+  Plug 'kchmck/vim-coffee-script', { 'for': ['coffeescript'] } " sigh
 
   " Plugins
   Plug 'git-mirror/vim-l9'
   Plug 'vim-scripts/camelcasemotion'
   Plug 'editorconfig/editorconfig-vim'
   Plug 'scrooloose/nerdtree'
+  Plug 'EvanDotPro/nerdtree-chmod'
   Plug 'scrooloose/nerdcommenter'
   Plug 'tpope/vim-surround'
   Plug 'ervandew/supertab'
