@@ -19,6 +19,7 @@ sunmap e
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|bower_components\|tmp'
 map <Leader>, :CtrlP<CR>
 map <Leader>b :CtrlPBuffer<CR>
+map <Leader>o :CtrlP %:p:h<CR>
 
 " dash.vim
 map <Leader>d :Dash<CR>
