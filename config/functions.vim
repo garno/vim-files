@@ -14,3 +14,5 @@ function! SpecToggle()
 
  exe 'e' expand(l:file)
 endfunction
+
+vmap <Leader>c :s/^.* class="\(.*\)".*/\.\1\ {\r\}\r/g<CR>
