@@ -12,6 +12,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'mustache/vim-mustache-handlebars', { 'for': ['html', 'html.handlebars', 'handlebars.ember'] }
   Plug 'slim-template/vim-slim', { 'for': ['slim'] }
   Plug 'kchmck/vim-coffee-script', { 'for': ['coffeescript'] } " sigh
+  Plug 'jparise/vim-graphql', { 'for': ['graphql'] }
 
   " Plugins
   Plug 'git-mirror/vim-l9'
@@ -26,6 +27,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'rizzatti/dash.vim'
   Plug 'mattn/gist-vim'
   Plug 'mattn/webapi-vim'
+  Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 " Config

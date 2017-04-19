@@ -9,3 +9,6 @@ autocmd BufNewFile,BufRead *.{slim} setfiletype slim
 
 " Coffeescript
 autocmd BufNewFile,BufRead *.{coffee} setfiletype coffeescript
+
+" GraphQL
+autocmd BufNewFile,BufRead *.{graphql} setfiletype graphql
