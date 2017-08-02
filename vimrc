@@ -9,7 +9,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx'] }
   Plug 'maxmellon/vim-jsx-pretty', { 'for': ['javascript', 'javascript.jsx'] }
   Plug 'dsawardekar/ember.vim', { 'for': ['javascript'] }
-  Plug 'mustache/vim-mustache-handlebars', { 'for': ['html', 'html.handlebars', 'handlebars.ember'] }
+  Plug 'joukevandermaas/vim-ember-hbs', { 'for': ['html.handlebars', 'handlebars.ember'] }
   Plug 'slim-template/vim-slim', { 'for': ['slim'] }
   Plug 'kchmck/vim-coffee-script', { 'for': ['coffeescript'] } " sigh
   Plug 'jparise/vim-graphql', { 'for': ['graphql'] }
@@ -28,6 +28,9 @@ call plug#begin('~/.vim/plugged')
   Plug 'mattn/gist-vim'
   Plug 'mattn/webapi-vim'
   Plug 'jiangmiao/auto-pairs'
+  Plug 'tpope/vim-commentary'
+  Plug 'guns/vim-clojure-static'
+  Plug 'luochen1990/rainbow'
 call plug#end()
 
 " Config

@@ -26,3 +26,6 @@ map <Leader>d :Dash<CR>
 
 " gist-vim
 let g:gist_post_private = 1
+
+" Rainbow
+let g:rainbow_active = 1
